@@ -19,6 +19,6 @@ if pizza_size in ("S", "M", "L"):
         if has_extra_cheese == "Y":
             cost_of_pizza += 1
 
-print(f"Your pizza size is {pizza_size} and the total cost is ${cost_of_pizza}")git
+print(f"Your pizza size is {pizza_size} and the total cost is ${cost_of_pizza}")
 
 

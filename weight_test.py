@@ -1,6 +1,11 @@
-number_to_check = int(input("Enter the number you want to check? "))
+weight = 85
+height = 1.85
 
-if number_to_check % 2 == 0:
-    print(f"{number_to_check} is an even number.")
-else:
-    print(f"{number_to_check} is an odd number.")
+bmi = weight / (height ** 2)
+
+if bmi < 18.5:
+    print("underweight")
+elif 18.5 <= bmi < 25:
+    print("normal weight")
+elif bmi >= 25:
+    print("overweight")
